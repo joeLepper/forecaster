@@ -1,0 +1,19 @@
+{
+  "name": "forecaster",
+  "version": "1.0.0",
+  "description": "Check forecast.io and turn on the chicken's heat lamp if it's too cold",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joeLepper/forecaster.git"
+  },
+  "author": "Joe Lepper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joeLepper/forecaster/issues"
+  },
+  "homepage": "https://github.com/joeLepper/forecaster"
+}

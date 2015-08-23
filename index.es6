@@ -1,0 +1,1 @@
+var forecast = require('forecast.io')
