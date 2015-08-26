@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/joeLepper/forecaster/issues"
   },
-  "homepage": "https://github.com/joeLepper/forecaster"
+  "homepage": "https://github.com/joeLepper/forecaster",
+  "dependencies": {
+    "babel": "^5.8.21",
+    "es6-require": "^0.2.1",
+    "moment": "^2.10.6",
+    "wemo": "^0.2.1",
+    "yargs": "^3.21.0"
+  }
 }
