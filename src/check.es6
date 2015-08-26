@@ -22,6 +22,6 @@ export default (thresholds, cb) => {
     let result = data.hourly.data
       .filter((_, i) => i < +thresholds.within)
       .some((d) => +d.temperature < +thresholds.temp)
-    cb(err, result ? 1 : 0)
+    cb(err, result ? 1 : 0, data)
   })
 }
