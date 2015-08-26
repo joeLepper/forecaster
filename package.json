@@ -19,6 +19,8 @@
   "dependencies": {
     "babel": "^5.8.21",
     "es6-require": "^0.2.1",
+    "express": "^4.13.3",
+    "forecast.io": "0.0.9",
     "moment": "^2.10.6",
     "wemo": "^0.2.1",
     "yargs": "^3.21.0"

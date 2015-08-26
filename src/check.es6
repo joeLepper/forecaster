@@ -21,10 +21,7 @@ export default (thresholds, cb) => {
     if (err) throw new Error(err)
     let result = data.hourly.data
       .filter((_, i) => i < +thresholds.within)
-      .some((d) => {
-        console.log(+d.temperature, +thresholds.temp, +d.temperature < +thresholds.temp)
-        return +d.temperature < +thresholds.temp
-      })
+      .some((d) => +d.temperature < +thresholds.temp)
     cb(err, result ? 1 : 0)
   })
 }
